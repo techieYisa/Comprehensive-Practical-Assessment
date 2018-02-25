@@ -17,15 +17,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity" />
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
-            <category android:name="android.intent.category.LAUNCHER"/>
-        </intent-filter>
-        <activity android:name=".BreedsActivity" />
-        <activity android:name=".DogsActivity" />
-        <activity android:name=".PhotoActivity"></activity>
+        <activity android:name=".BreedsActivity">
+        </activity>
+        <activity android:name=".DogsActivity">
+        </activity>
+        <activity android:name=".PhotoActivity">
+        </activity>
     </application>
 
 </manifest>
